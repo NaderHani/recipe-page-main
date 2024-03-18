@@ -1,0 +1,85 @@
+:root{
+    --main-font:"Outfit";
+    --head-font:"Young Serif";
+}
+
+@font-face {
+    font-family: "Outfit";
+    src: url(https://fonts.google.com/specimen/Outfit);
+}
+@font-face {
+    font-family: "Young Serif";
+    src: url(https://fonts.google.com/specimen/Young+Serif);
+}
+img{
+    width: 100%;
+}
+span{
+    font-weight: 600;
+    font-family: var(--main-font);
+    
+}
+h1{
+    font-weight: 400;
+    font-size: 30px;
+    font-family: var(--head-font);
+}
+h3{
+    font-weight: 300;
+    font-size: 25px;
+    color:  hsl(14, 45%, 36%);
+    font-family: var(--head-font);
+}
+
+body{
+    background-color:hsl(30, 54%, 90%);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px ;
+}
+.w-100{
+    width: 100%;
+}
+.mt{
+    margin-top: 13px;
+}
+/* ************************* */
+section{ 
+    width: 45%;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 20px;
+}
+.container{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 90%;
+    padding: 30px 0;
+}
+.img-div{
+    overflow: hidden;
+    border: none;
+    border-radius: 10px;
+}
+.sec-div{
+    border-radius: 10px;
+    width: 100%;
+    padding: 5px 20px;
+    background-color: hsl(330, 100%, 98%);
+}
+
+.img-content p {
+    font-family: var(--main-font) !important;
+}
+
+.thr-div , .fourth-div{
+    border-bottom: 1px solid rgba(128, 128, 128, 0.489);
+}
+
+table, tr, td {
+    padding: 10px 5px;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.489);
+    border-collapse: collapse;
+  }
